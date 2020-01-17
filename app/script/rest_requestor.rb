@@ -8,4 +8,4 @@ puts RestClient.get(url) # index
 puts RestClient.get(url_two) # new
 puts RestClient.get(url_three) # show
 puts RestClient.get(url_four) # edit
-puts RestClient.post(url, "")
+puts RestClient.post(url, "") #create
