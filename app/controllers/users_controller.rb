@@ -14,4 +14,7 @@ class UsersController < ApplicationController
   def new
     @name = "I'm the new action"
   end
+
+  def create
+  end
 end
